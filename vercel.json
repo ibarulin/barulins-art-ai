@@ -1,0 +1,15 @@
+{  
+  "version": 2,  
+  "functions": {  
+    "api/processImage.js": {  
+      "runtime": "nodejs18.x"  
+    }  
+  },  
+  "routes": [  
+    {  
+      "src": "/api/processImage",  
+      "methods": ["POST", "OPTIONS"],  
+      "dest": "/api/processImage.js"  
+    }  
+  ]  
+}  
