@@ -63,7 +63,7 @@ function b64ToBuffer(b64) {
 }
 
 async function callGemini(interiorBuf, artworkBuf, apiKey) {
-  const endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent';
+  const endpoint = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro-002:generateContent';
 
   const instruction = `
 Ты — профессиональный ассистент по дизайну интерьеров.
